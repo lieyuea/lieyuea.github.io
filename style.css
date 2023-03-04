@@ -1,0 +1,19 @@
+header { text-align: center; }
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  grid-template-columns: repeat(9, 1fr);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.title {
+  grid-column: 4;
+}
+.description {
+  grid-column:  span 4 / auto;
+}
