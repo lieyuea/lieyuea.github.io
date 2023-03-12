@@ -23,6 +23,9 @@ label {
   padding: 5px;
   transition: all 500ms;
 }
+a label:hover {
+  cursor: pointer;
+}
 nav {
   background-color: hsl(0, 0%, 21%);
   height: minmax(fit-content, 400px);
